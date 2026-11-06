@@ -15,7 +15,6 @@
 
 <body>
 
-    <!-- ===================== TOP BAR (BARU) ===================== -->
     <div class="topbar">
         <div class="wadah">
             <div>Portal Pribadi &mdash; Universitas Kuningan</div>
@@ -30,9 +29,8 @@
 
     <div class="halaman">
 
-        <!-- ===================== KARTU PROFIL (KIRI) ===================== -->
         <aside class="profil">
-            <!-- Letakkan foto di folder asset/ dengan nama photo_profile.jpeg -->
+
             <img src="asset/photo_profile.jpeg" alt="Foto profil Lea Iqbal Meicca Putra">
             <h1>Lea Iqbal Meicca Putra</h1>
             <p class="peran">Mahasiswa Sistem Informasi<br>Universitas Kuningan</p>
@@ -53,7 +51,6 @@
             </nav>
         </aside>
 
-        <!-- ===================== KONTEN (KANAN) ===================== -->
         <main class="konten">
 
             <section id="tentang" class="sapaan">
@@ -160,79 +157,94 @@
                 </blockquote>
             </section>
 
-            <!-- ===================== MY PROJECT (BARU) ===================== -->
             <section id="project">
                 <h2>My Project</h2>
                 <p>
                     Kumpulan tugas dan project yang pernah saya kerjakan dan unggah ke GitHub.
-                    Klik salah satu kartu untuk membuka repository-nya.
+                    Klik <b>Buka</b> untuk menampilkan hasilnya, atau <b>Lihat Kode</b> untuk membuka file-nya di GitHub.
                 </p>
 
                 <div class="proyek-grid">
 
-                    <!--
-                        CARA MENAMBAH PROJECT: salin satu blok <a class="proyek"> ... </a>,
-                        lalu ganti href, judul, deskripsi, dan tag-nya.
-                        Link repository berbentuk:
-                        https://github.com/20250910087-debug/NAMA-REPOSITORY
-                    -->
-
-                    <!-- Project 1: web ini sendiri -->
-                    <a class="proyek" href="https://github.com/20250910087-debug/Tugas_WEB_Profil_Diri" target="_blank" rel="noopener">
-                        <span class="label-repo">Folder Project</span>
-                        <h3>Tugas WEB Profil Diri</h3>
-                        <p>Halaman profil pribadi berisi biodata, riwayat pendidikan, keahlian, jadwal kuliah, dan daftar project.</p>
+                    <div class="proyek">
+                        <span class="label-repo">WEB UTAMA</span>
+                        <h3>Mata Kuliah Desain WEB</h3>
+                        <p>Repository kumpulan kegiatan pada mata kuliah Desain Web, termasuk halaman profil pribadi (web ini).</p>
                         <div class="tag-wrap">
                             <span class="tag">HTML</span>
                             <span class="tag">CSS</span>
                             <span class="tag">GitHub Pages</span>
                         </div>
-                        <span class="buka">Buka Repository &rarr;</span>
-                    </a>
+                        <div class="aksi">
+                            <a class="buka" href="https://github.com/20250910087-debug/Mata_Kuliah_Desain_WEB" target="_blank" rel="noopener">Buka Repository &rarr;</a>
+                        </div>
+                    </div>
 
-                    <!-- Project 2: GANTI href dengan link repository Anda -->
-                    <a class="proyek" href="https://github.com/20250910087-debug?tab=repositories" target="_blank" rel="noopener">
-                        <span class="label-repo">Folder Project</span>
+                    <div class="proyek">
+                        <span class="label-repo">PROJECT WEB</span>
                         <h3>Web Profil Keluarga</h3>
-                        <p>Halaman profil Kurnia Family dengan tabel anggota keluarga, daftar kegiatan, dan tautan terkait.</p>
+                        <p>Halaman profil Kurnia Family: foto keluarga, tabel anggota, daftar kegiatan, nilai keluarga, dan tampilan CSS.</p>
                         <div class="tag-wrap">
                             <span class="tag">HTML</span>
                             <span class="tag">CSS</span>
                             <span class="tag">Table</span>
                         </div>
-                        <span class="buka">Buka Repository &rarr;</span>
-                    </a>
+                        <div class="aksi">
+                            <a class="buka" href="Tugas_Web_Keluarga/index.html" target="_blank" rel="noopener">Buka Halaman &rarr;</a>
+                            <a class="kode" href="https://github.com/20250910087-debug/Mata_Kuliah_Desain_WEB/tree/main/Tugas_Web_Keluarga" target="_blank" rel="noopener">Lihat Kode</a>
+                        </div>
+                    </div>
 
-                    <!-- Project 3: GANTI href dengan link repository Anda -->
-                    <a class="proyek" href="https://github.com/20250910087-debug?tab=repositories" target="_blank" rel="noopener">
-                        <span class="label-repo">Folder Project</span>
-                        <h3>Praktikum Desain Web</h3>
-                        <p>Tugas praktikum Desain Web: dasar HTML, penggunaan Git, dan pembuatan halaman dengan CSS.</p>
+                    <div class="proyek">
+                        <span class="label-repo">PROJECT WEB</span>
+                        <h3>Landing Page Biodata</h3>
+                        <p>Tugas Data Diri (Modul 1): landing page biodata dengan elemen semantik HTML5, tabel, daftar, dan formulir kirim pesan.</p>
+                        <div class="tag-wrap">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">Table</span>
+                            <span class="tag">Form</span>
+                        </div>
+                        <div class="aksi">
+                            <a class="buka" href="Tugas_Data_Diri/Tugas_01_Landing_Page_Biodata.html" target="_blank" rel="noopener">Buka Halaman &rarr;</a>
+                            <a class="kode" href="https://github.com/20250910087-debug/Mata_Kuliah_Desain_WEB/blob/main/Tugas_Data_Diri/Tugas_01_Landing_Page_Biodata.html" target="_blank" rel="noopener">Lihat Kode</a>
+                        </div>
+                    </div>
+
+                    <div class="proyek">
+                        <span class="label-repo">LAPORAN</span>
+                        <h3>Laporan Praktikum Modul 1</h3>
+                        <p>Hasil Praktikum Desain Web Modul 1 (dasar HTML): pre-test, latihan 01&ndash;05, dan post-test. Buka folder untuk melihat isinya.</p>
                         <div class="tag-wrap">
                             <span class="tag">HTML</span>
-                            <span class="tag">CSS</span>
-                            <span class="tag">Git</span>
+                            <span class="tag">Latihan</span>
+                            <span class="tag">Test</span>
                         </div>
-                        <span class="buka">Buka Repository &rarr;</span>
-                    </a>
+                        <div class="aksi">
+                            <a class="buka" href="Laporan_Pratikum/Modul_1/index.html">Buka Folder &rarr;</a>
+                            <a class="kode" href="https://github.com/20250910087-debug/Mata_Kuliah_Desain_WEB/tree/main/Laporan_Pratikum/Modul_1" target="_blank" rel="noopener">Lihat di GitHub</a>
+                        </div>
+                    </div>
 
-                    <a class="proyek" href="https://github.com/20250910087-debug?tab=repositories" target="_blank" rel="noopener">
-                        <span class="label-repo">Soon</span>
-                        <h3>Soon</h3>
-                        <p>Soon</p>
+                    <div class="proyek">
+                        <span class="label-repo">LAPORAN</span>
+                        <h3>Laporan Praktikum Modul 2</h3>
+                        <p>Laporan Praktikum Desain Web Modul 2 tentang Git: pre-test, hasil praktikum, post-test, dan tugas beserta analisisnya.</p>
                         <div class="tag-wrap">
-                            <span class="tag">Soon</span>
-                            <span class="tag">Soon</span>
+                            <span class="tag">Git</span>
+                            <span class="tag">GitHub</span>
+                            <span class="tag">PDF</span>
                         </div>
-                        <span class="buka">Soon &rarr;</span>
-                    </a>
+                        <div class="aksi">
+                            <a class="buka" href="Laporan_Pratikum/Modul_2/Laporan_Praktikum_Desain_Web_Modul_2_Lea_Iqbal.pdf" target="_blank" rel="noopener">Buka Laporan &rarr;</a>
+                            <a class="kode" href="https://github.com/20250910087-debug/Mata_Kuliah_Desain_WEB/blob/main/Laporan_Pratikum/Modul_2/Laporan_Praktikum_Desain_Web_Modul_2_Lea_Iqbal.pdf" target="_blank" rel="noopener">Lihat di GitHub</a>
+                        </div>
+                    </div>
 
                 </div>
 
                 <a class="tombol" href="https://github.com/20250910087-debug?tab=repositories" target="_blank" rel="noopener">Lihat Semua Repository</a>
             </section>
 
-            <!-- ===================== AKADEMIK (BARU) ===================== -->
             <section id="akademik">
                 <h2>Akademik</h2>
                 <h3>Jadwal Kuliah</h3>
@@ -357,9 +369,9 @@
                         </tbody>
                     </table>
                 </div>
+                <p class="catatan">Ganti teks [ ... ] dengan hari, jam, dan ruang kuliah Anda. Tambah baris dengan menyalin satu blok &lt;tr&gt; &hellip; &lt;/tr&gt;.</p>
             </section>
 
-            <!-- ===================== TAUTAN CEPAT (BARU) ===================== -->
             <section id="tautan">
                 <h2>Tautan Cepat</h2>
                 <ul class="tautan-cepat">
@@ -370,7 +382,6 @@
                 </ul>
             </section>
 
-            <!-- ===================== KONTAK ===================== -->
             <section id="kontak">
                 <h2>Hubungi Saya</h2>
 
@@ -380,12 +391,16 @@
                         <span>20250910087@uniku.ac.id</span>
                     </div>
                     <div>
-                        <strong>Telepon</strong>
+                        <strong>Telepon / WhatsApp</strong>
                         <span>[+62 xxx-xxxx-xxxx]</span>
                     </div>
                     <div>
+                        <strong>GitHub</strong>
+                        <span>github.com/20250910087-debug</span>
+                    </div>
+                    <div>
                         <strong>Alamat Kampus</strong>
-                        <span>Jl. Pramuka No.67, Purwawinangun, Kec. Kuningan, Kabupaten Kuningan, Jawa Barat</span>
+                        <span>Fakultas Ilmu Komputer, Universitas Kuningan, Kuningan, Jawa Barat</span>
                     </div>
                 </div>
 
